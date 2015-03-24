@@ -20,6 +20,7 @@ namespace WebApplication3
 
         }
 
+        //Adds values to the database and to the gridview
         protected void Insertbtn_Click(object sender, EventArgs e)
         {
             SqlDataSource1.InsertParameters["Date"].DefaultValue = ((TextBox)GridView1.FooterRow.FindControl("dateTxt")).Text;

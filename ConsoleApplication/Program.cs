@@ -10,12 +10,15 @@ namespace ConsoleApplication
 {
     class Program
     {
+
+        //Gets the timestamp when a word is enterd
         public static String GetTimeStamp(DateTime value)
         {
             return value.ToString("yyyyMMddHHmmss");
         }
 
 
+        //Reads a word that a user enters and then takes the datestamp
         static void Main(string[] args)
         {
             string word = "";
